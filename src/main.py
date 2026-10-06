@@ -1,24 +1,6 @@
-#!/usr/bin/env python3
-"""
-Multimedia Analyzer & Enhancement Tool
-======================================
-
-A comprehensive tool for:
-1. Image metadata analysis
-2. Video metadata analysis  
-3. Audio metadata analysis
-4. Voice cloning using ElevenLabs API
-5. Image enhancement (OpenCV & PIL)
-
-Author: Assignment Project
-"""
-
 import sys
 import os
 import json
-
-# Add src to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from file_utils import file_exists, get_file_size, get_file_extension, get_file_type
 from image_analyzer import analyze_image

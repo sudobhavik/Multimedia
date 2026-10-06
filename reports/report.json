@@ -1,18 +1,10 @@
 {
-  "file_type": "video/mp4",
-  "file_name": "video.mp4",
-  "file_size": 14318,
-  "container": "mp4",
-  "duration": 5.0,
-  "resolution": [
-    1920,
-    1080
-  ],
-  "frame_rate": 30.0,
-  "bit_rate": null,
-  "codec": null,
-  "audio_codec": null,
-  "audio_channels": null,
-  "audio_sampling_rate": null,
-  "audio_bitrate": null
+  "file_type": "audio/x-wav",
+  "file_name": "song.wav",
+  "file_size": 176478,
+  "duration": 2.0,
+  "codec": "pcm_s16le",
+  "channels": 2,
+  "sampling_rate": 44100,
+  "bitrate": 705
 }
